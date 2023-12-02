@@ -42,7 +42,8 @@ from rclpy.node import Node
 class MyNode(Node) : 
 
     def __init__(self):
-        #The following line will call __init__ function from the Node.
+
+        #The following line will call __init__ function from the Node objet.
         super().__init__("py_test")
         # instead of node.get_logger() we are gonna use the below line : 
         self.get_logger().info("Hello ROS2")
