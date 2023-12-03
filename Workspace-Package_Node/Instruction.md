@@ -81,9 +81,7 @@ if __name__ == "__main__" :
 ### since this node does nothing about printing a log. Let's use one of the most basic and common functionalities in ROS, which is a timer. A timer will allow to call a function with a given rate. A function is needed to be called at 10Hz, for instance, therefore the timer comes into play.
 
 ```python
-
 #!/usr/bin/env python3
-
 import rclpy
 from rclpy.node import Node 
 
@@ -99,16 +97,36 @@ class MyNode(Node) :
         #...below in the def timer_callback(self).  
         self.create_timer(0.5, self.timer_callback)
 
-
     #We will add timer directly inside the class
     def timer_callback(self) :
         self.counter_ += 1 
         self.get_logger().info("Hello" + str(self.counter_))
 
-
 def main(args=None): 
     rclpy.init(args=args)
     node = MyNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+if __name__ == "__main__" : 
+    main()
+```
+## OOP Python Code Template for Nodes
+```python
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node 
+
+
+class MyCustomNode(Node): # Modify the name
+    def __init__(self):
+        super().__init__("node_name")  # Modify another name here as well
+    
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MyCustomNode() # Modify the Name
     rclpy.spin(node)
     rclpy.shutdown()
 
