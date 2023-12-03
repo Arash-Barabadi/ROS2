@@ -95,7 +95,8 @@ class MyNode(Node) :
         self.get_logger().info("Hello ROS2")
         #From the Node object we call create_timer function.
         #The first argument is the period between two callbacks (0,5 sec = 2Hz) 
-        #The second argument is the function to be called, which is defined inside the class as can be seen below in the def timer_callback(self).  
+        #The second argument is the function to be called, which is defined inside the class as can be seen ...
+        #...below in the def timer_callback(self).  
         self.create_timer(0.5, self.timer_callback)
 
 
