@@ -15,7 +15,7 @@ def main(args=None):
     #Note that, the name of the node is not the name of the file.
     node = Node("py_test")
 
-    #Please note that, the node is not the executable, the node is inside the executable or the file. 
+    #Please note that, the node is not the executable, the node is inside the executable or the python file. 
 
     #Let's print something with get_logger. So you will use get_logger function from the node objet.
     node.get_logger().info("Hello ROS2")
