@@ -8,7 +8,7 @@ from rclpy.node import Node
 
 
 def main(args=None):
-    #For starting the ROS2 communication the following line must be written. 
+    #Initialize the ROS2 communication. 
     rclpy.init(args=args)
 
     #To construct the node, we should use Node class as an object, and insert the node name as a parameter. 
