@@ -16,6 +16,8 @@ def main(args=None):
     node = Node("py_test")
     node = MyNode()
 
+    #Please note that, the node is not the executable, the node is inside the executable or the file. 
+
     #Let's print something with get_logger. So you will use get_logger function from the node objet.
     node.get_logger().info("Hello ROS2")
 
@@ -28,6 +30,11 @@ def main(args=None):
 
 if __name__ == "__main__" : 
     main()
+```
+## !! Remeber for the first time of the use of the python file, it should be in terminal written that the python file is executable. Accordingly the following line must be typed :
+```bash
+chmod +x my_first_node.py
+
 ```
 ## Class
 ### A template for writing ROS2 python node would be something like below:
