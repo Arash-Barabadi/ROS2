@@ -14,7 +14,6 @@ def main(args=None):
     #To construct the node, we should use Node class as an object, and insert the node name as a parameter. 
     #Note that, the name of the node is not the name of the file.
     node = Node("py_test")
-    node = MyNode()
 
     #Please note that, the node is not the executable, the node is inside the executable or the file. 
 
