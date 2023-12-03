@@ -22,7 +22,7 @@ def main(args=None):
     #The following line is used to make your node be alive. The callbacks will be able to be called from spin function.
     rclpy.spin(node)
 
-    #End the ROS2 communication.
+    #Finish the ROS2 communication.
     rclpy.shutdown()
 
 
