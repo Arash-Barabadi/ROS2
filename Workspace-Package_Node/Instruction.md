@@ -1,4 +1,4 @@
-## Create a Python node inside the Python file
+## Create a Python node inside a Python file
 ```python
 # The interpreter line for python3 as bellow. ROS2 only works with python3 not python2 or older versions.
 #!/usr/bin/env python3
