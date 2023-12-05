@@ -2,4 +2,4 @@
 ```bash
 ros2 run "package_name" "node_name" --ros-args --remap __node:="new_node_name"
 ```
-### Therefore we can use 1 executable for many nodes but with the same structure. 
+### Therefore we can use 1 executable for many nodes.
