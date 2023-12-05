@@ -2,4 +2,8 @@
 ```bash
 ros2 run "package_name" "node_name" --ros-args --remap __node:="new_node_name"
 ```
+## or
+```bash
+ros2 run "package_name" "node_name" --ros-args -r __node:="new_node_name"
+```
 ### Therefore we can use 1 executable for many nodes.
