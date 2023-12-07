@@ -25,7 +25,7 @@ ros2 topic list
 ros2 node list
 ```
 ### and it shows us nothing. because we haven't acitvated any nodes.
-
+## _________________________________________________________________________________________________________-
 ## we can have a common topic for two publishers.
 ### the first publisher:
 ```bash
@@ -35,3 +35,9 @@ ros2 topic pub -r 10 /robot_news example_interfaces/msg/String "{data: 'hey jude
 ```bash
 ros2 run my_py_pkg robot_news_station
 ```
+## and then echo the command from the common topic called /robot_news
+```bash
+ros2 topic echo /robot_news
+```
+
+## 
