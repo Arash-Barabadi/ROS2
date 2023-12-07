@@ -39,5 +39,11 @@ ros2 run my_py_pkg robot_news_station
 ```bash
 ros2 topic echo /robot_news
 ```
+## to check the info:
+```bash
+ros2 topic info /robot_news
 
-## 
+    Type: example_interfaces/msg/String
+    Publisher count: 2
+    Subscription count: 1
+```
