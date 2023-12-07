@@ -15,4 +15,4 @@ ros2 topic list
 /parameter_events
 /robot_news
 /rosout
-### as can be seen in above "/robot_news" is activated, which is a publisher. 
+### as can be seen on above "/robot_news" is activated, which is a publisher. 
