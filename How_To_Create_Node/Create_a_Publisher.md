@@ -18,9 +18,9 @@ ros2 topic list
 /parameter_events
 /rosout
 ```
-### as can be seen on above "/robot_news" is activated, which is a publisher. 
+### as can be seen above /arbitrary is on the list of topics.
 
-## If you check whether any node relating to the publisher was existed, type in the following command. 
+## and if you check whether any node relating to the publisher was existed, type in the following command. 
 ```bash
 ros2 node list
 ```
