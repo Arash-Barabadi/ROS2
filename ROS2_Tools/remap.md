@@ -13,7 +13,7 @@ ros2 run "package_name" "node_name" --ros-args -r __node:="new_node_name"
 ## Rename a Topic
 ### for the Publisher
 ```bash
-ros2 run my_py_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
+ros2 run my_py_pkg robot_news_station --ros-args -r robot_news:=my_news
 ```
 ### for the Subscriber
 ```bash
