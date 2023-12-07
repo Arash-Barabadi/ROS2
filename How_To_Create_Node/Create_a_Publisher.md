@@ -14,8 +14,8 @@ ros2 topic list
 ```
 ### and the outputs were :
 ```bash
+/arbitrary
 /parameter_events
-/robot_news
 /rosout
 ```
 ### as can be seen on above "/robot_news" is activated, which is a publisher. 
