@@ -15,3 +15,7 @@ ros2 run "package_name" "node_name" --ros-args -r __node:="new_node_name"
 ```bash
 ros2 run my_py_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
 ```
+
+```bash
+ros2 run my_py_pkg smartphone --ros-args -r robot_news:=my_news
+```
