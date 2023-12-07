@@ -25,7 +25,7 @@ ros2 topic list
 ros2 node list
 ```
 ### and it shows us nothing. because we haven't acitvated any nodes.
-## _______________________________________________________________________________________-
+## ______________________________________________________________________-
 ## we can have a common topic for two publishers.
 ### the first publisher:
 ```bash
