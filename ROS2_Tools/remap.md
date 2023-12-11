@@ -19,6 +19,10 @@ ros2 run my_py_pkg robot_news_station --ros-args -r __node:=my_station
 ```bash
 ros2 run my_py_pkg robot_news_station --ros-args -r robot_news:=my_news
 ```
+### or if you want rename both node and topic name, therefore;
+```bash
+ros2 run my_py_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
+```
 ### for the Subscriber
 ```bash
 ros2 run my_py_pkg smartphone --ros-args -r robot_news:=my_news
