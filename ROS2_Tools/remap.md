@@ -23,7 +23,7 @@ ros2 run my_py_pkg robot_news_station --ros-args -r robot_news:=my_news
 ```bash
 ros2 run my_py_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
 ```
-### for the Subscriber
+### It's necessary for the Subscriber
 ```bash
 ros2 run my_py_pkg smartphone --ros-args -r robot_news:=my_news
 ```
