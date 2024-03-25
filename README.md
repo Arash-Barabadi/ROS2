@@ -1,4 +1,16 @@
 # ROS2
 ## to create your own ROS2 programs, you will need a build tool specific to ROS2.So this build tool is called COLCON and is created specifically for the ROS2. 
-## The installation procedure of COLCON is as follows: 
-### sudo apt install python3-colcon-common-extensions
+### The installation procedure of COLCON is as follows: 
+´´´bash
+sudo apt install python3-colcon-common-extensions
+´´´
+### The colcon is now installed and can be used. There is one more thing which needs to be set up with Colcon, that is the auto completion feature.
+### The auto completion feature is not enabled by deafualt, so we will check that as follows... 
+### at first go to the following location
+´´´ bash
+cd /usr/share/colcon_argcomplete/hook/
+´´´
+### there the colcon_argcomplete.bash is availabe. Then we can source it in .bashrc file as follows: ...
+´´´bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+```
