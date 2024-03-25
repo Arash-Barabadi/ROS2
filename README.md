@@ -11,6 +11,6 @@ sudo apt install python3-colcon-common-extensions
 cd /usr/share/colcon_argcomplete/hook/
 ´´´
 ### there the colcon_argcomplete.bash is availabe. Then we can source it in .bashrc file as follows: ...
-´´´bash
+```bash
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
