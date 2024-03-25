@@ -14,6 +14,6 @@ cd /usr/share/colcon_argcomplete/hook/
 ### there the colcon_argcomplete.bash is availabe. Then we can source it in .bashrc file as follows: ...
 ```bash
 gedit ~/.bashrc
-!then copy-paste the above address and save the changes.
+!then copy-paste the colcon_argcomplete.bash file address and save the changes.
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
