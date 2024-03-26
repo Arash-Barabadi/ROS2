@@ -1,6 +1,5 @@
 # ROS2
 ## COLCON
-##
 ### to create your own ROS2 programs, you will need a build tool specific to ROS2. So this build tool is called colcon and is created specifically for the ROS2. 
 ### The installation procedure of colcon is as follows: 
 ```bash
@@ -19,3 +18,5 @@ gedit ~/.bashrc
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
 ## Workspace
+### This workspace will be the place where you write all your codes for a ROS2 application. And that's also where you will compile these codes.
+### Create a Workspace with the following  commn 
