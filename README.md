@@ -43,4 +43,7 @@ colcon build
 
 #### We have a "local_setup.bash" and a "setup.bash" files. What is the difference?
 #### "local_setup.bash" simply sources the workspace ros2_ws (Overlay Workspace). When using the "local_setup.bash" script, I can access everything I've created in the ros2_ws workspace. 
-#### "setup.bash" will source the ros2_ws (overlay) and the global ROS2 installation (underlay workspace). For simplicity, the following command should be written into the .bashrc file to use the "setup.bash".
+#### "setup.bash" will source the ros2_ws (overlay) and the global ROS2 installation (underlay workspace) as well. For simplicity, the following command should be written into the .bashrc file to use the "setup.bash".
+```bash
+source ~/ros2_ws/install/setup.bash
+```
