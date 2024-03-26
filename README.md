@@ -38,5 +38,5 @@ colcon build
 #### log : which contains log of the build process.
 #### build : 
 #### install : 
-### if you go to this install folder, here we have a setup.bash script. we also have local_setup.bash script.
-### So I want to use whatever I've created in this workspace, I have to source local_setup.bash script. 
+### In the installation folder, you will find a 'setup.bash' script as well as a 'local_setup.bash' script.
+### So if I want to use whatever I've created in this workspace, I have to source local_setup.bash script. 
