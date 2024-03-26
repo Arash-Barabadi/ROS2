@@ -40,3 +40,5 @@ colcon build
 #### install : 
 ### In the installation folder, you will find a 'setup.bash' script as well as a 'local_setup.bash' script.
 ### So if I want to use whatever I've created in this workspace, I have to source local_setup.bash script. 
+
+#### "local_setup.bash" simply sources the workspace project1_ws (Overlay Workspace). When using the "local_setup.bash" script, I can access everything I've created in the project1_ws workspace. "setup.bash" will use the project1_ws (overlay) and the global ROS2 installation (underlay workspace). For simplicity, the following command should be written into the .bashrc file to use the "setup.bash".
