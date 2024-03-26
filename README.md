@@ -25,4 +25,8 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```bash
 mkdir ros2_ws
 ```
-
+#### inside this folder we are going to create a src folder, which is source folder. 
+```bash
+cd ros2_ws
+mkdir src
+```
