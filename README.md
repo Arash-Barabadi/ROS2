@@ -38,7 +38,7 @@ colcon build
 #### log : which contains log of the build process.
 #### build : 
 #### install : 
-### In the installation folder, you will find a 'setup.bash' script as well as a 'local_setup.bash' script.
+### In the install folder, you will find a 'setup.bash' script as well as a 'local_setup.bash' script.
 ### So if I want to use whatever I've created in this workspace, I have to source local_setup.bash script. 
 
 #### We have a "local_setup.bash" and a "setup.bash" files. What is the difference?
