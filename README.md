@@ -34,3 +34,9 @@ mkdir src
 ```bash
 colcon build
 ```
+### Now, if I check the contents, there are three folders next to the 'src' directory
+#### log : which contains log of the build process.
+#### build : 
+#### install : 
+### if you go to this install folder, here we have a setup.bash script. we also have local_setup.bash script.
+### So I want to use whatever I've created in this workspace, I have to source local_setup.bash script. 
