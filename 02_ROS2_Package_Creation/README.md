@@ -7,3 +7,7 @@
 ```bash
 cd ~/ros2_ws/src
 ```
+## And to create a new package you simply type ...
+```bash
+ros2 pkg create
+```
