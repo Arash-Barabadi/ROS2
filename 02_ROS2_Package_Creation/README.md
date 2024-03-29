@@ -9,5 +9,5 @@ cd ~/ros2_ws/src
 ```
 ## And to create a new package you simply type ...
 ```bash
-ros2 pkg create
+ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
 ```
