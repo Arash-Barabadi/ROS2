@@ -36,7 +36,11 @@ ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
 
 ## So, the package is ready now. 
 # Compile the package
-## at first navigate to the workspace, which is here is ros2_ws
+## at first navigate to the workspace, which is here is ros2_ws and easily type only "colcon build"
 ```bash
-cd ros2_ws
+arash@arash-HP-ZBook-15-G2:~/ros2_ws$ colcon build
+Starting >>> my_py_pkg
+Finished <<< my_py_pkg [1.78s]          
+
+Summary: 1 package finished [4.06s]
 ```
