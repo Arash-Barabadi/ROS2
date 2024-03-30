@@ -44,7 +44,12 @@ Finished <<< my_py_pkg [1.78s]
 
 Summary: 1 package finished [4.06s]
 ```
-## If you intend to compile particular package, then type in the following command.
+## If you have many packages and intend to compile only a particular package, then type in the following command. 
 ```bash
-colcon build --package-select my_py_pkg
+~/ros2_ws$ colcon build --packages-select my_py_pkg 
+Starting >>> my_py_pkg
+Finished <<< my_py_pkg [1.70s]          
+
+Summary: 1 package finished [4.02s]
 ```
+## Now the python package is ready to host any python nodes. 
