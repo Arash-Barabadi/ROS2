@@ -33,3 +33,10 @@ ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
  <build_type>ament_python</build_type>
 ```
 ### Finally we have two setup.cfg and setup.py files. When we create a ros2 node, we will come back here. 
+
+## So, the package is ready now. 
+# Compile the package
+## at first navigate to the workspace, which is here is ros2_ws
+```bash
+cd ros2_ws
+```
