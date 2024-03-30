@@ -44,3 +44,7 @@ Finished <<< my_py_pkg [1.78s]
 
 Summary: 1 package finished [4.06s]
 ```
+## If you intend to compile particular package, then type in the following command.
+```bash
+colcon build --package-select my_py_pkg
+```
