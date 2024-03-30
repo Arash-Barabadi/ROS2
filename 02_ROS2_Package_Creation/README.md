@@ -15,4 +15,13 @@ ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
 ### my_py_pkg: 1st folder was generated with the same name of the package(my_py_pkg). In this folder one must put all nodes of the package. It already contains __init__.py file. (I will talk about this python file later. But now it's not necessary to open it.) 
 ### resource folder: which doesn't need to be opened now. 
 ### test folder: which already contains 3 test files. All the test files should be located here. 
-###
+### package.xml: each ros2 package either a c++ or a python package contains a package.xml file. In this file you have basically 2 things. The first is a bunch of information like below : 
+```xml
+<package format="3">
+  <name>my_py_pkg</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="arash.barabadi@gmail.com">arash</maintainer>
+  <license>TODO: License declaration</license>
+```
+
