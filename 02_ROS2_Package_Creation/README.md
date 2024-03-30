@@ -12,7 +12,7 @@ cd ~/ros2_ws/src
 ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
 ```
 ## we now have a folder named my_py_pkg. LEt's see what wee got in this folder(my_py_pkg)
-### my_py_pkg: 1st folder was generated with the same name of the package(my_py_pkg). In this folder one must to put all nodes of the package. It already contains __init__.py file. (I will talk about this python file later. But now it's not necessary to open it.) 
+### my_py_pkg: 1st folder was generated with the same name of the package(my_py_pkg). In this folder one must put all nodes of the package. It already contains __init__.py file. (I will talk about this python file later. But now it's not necessary to open it.) 
 ### resource folder: which doesn't need to be opened now. 
 ### test folder: which already contains 3 test files. All the test files should be located here. 
 ###
