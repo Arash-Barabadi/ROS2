@@ -58,4 +58,5 @@ setup(
         'console_scripts': [
             "py_node = my_py_pkg.my_first_node:main"
 # py_node : executable name
+        ]
 ```
