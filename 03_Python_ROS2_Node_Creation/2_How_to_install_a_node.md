@@ -53,10 +53,18 @@ setup(
 
 ## 2- to install the node you want to compile.
 ### to install a node, we will add a new line here and we will need to specify a name for the executable.So what will ROS2 do when we install the file? It will copy the python file (for example my_first_node.py) then make some modification so it becomes an executable.And that exevutable, will be installed in the """" install folder """" of ROS2 workspace. 
-### So we need to specify a name for the executable.
+### So we need to specify a name for the executable. Again refering to python.py we have :....
 ```python
         'console_scripts': [
             "py_node = my_py_pkg.my_first_node:main"
 # py_node : executable name
         ]
+```
+### then go back to the terminal and write down the following line:
+```bash
+~/ros2_ws$ colcon build --packages-select my_py_pkg
+```
+### let's see where this node has been installed. As mentioned in setup.cfg :
+```bash
+~/ros2_ws/install/my_py_pkg/lib/my_py_pkg
 ```
