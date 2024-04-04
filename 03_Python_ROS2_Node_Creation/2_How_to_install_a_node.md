@@ -19,8 +19,8 @@ script-dir=$base/lib/my_py_pkg
 [install]
 install-scripts=$base/lib/my_py_pkg
 ```
-## setup.py have 2 functionalities.
-### 1- to put your info, when you want to release the software.
+## setup.py has 2 functionalities.
+## 1- to put your info, when you want to release the software.
 ```python
 from setuptools import setup
 
@@ -49,5 +49,7 @@ setup(
 #    },
 )
 ```
-### 2- to install the node you want to compile.
+### So if you take a look at this setup.py file, you have version,maintainer, description, license. And that is quite similar to what we had in the package.xml. So if you need to release the package, you have to change the info in both of these two files.
 
+## 2- to install the node you want to compile.
+### to install a node.
