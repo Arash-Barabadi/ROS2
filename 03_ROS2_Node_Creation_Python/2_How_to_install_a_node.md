@@ -78,4 +78,6 @@ setup(
 # 3- the third and the best way. After installing the node, through the above steps, type in the terminal (No matter if it's in main directory or not:)
 ´´´bash
 ros2 run my_py_pkg py_node 
-```
+´´´
+
+
