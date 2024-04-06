@@ -75,7 +75,7 @@ setup(
 ~/ros2_ws/install/my_py_pkg/lib/my_py_pkg$ ./py_node 
 ```
 ### in it works.
-# 3- the third and the best way. After installing the node, through the above steps, type in the terminal (No matter if it's in main directory or not:)
+# 3- the third and the best way. After installing the node, through the above steps, then type in the terminal (No matter if it's in main directory or not:). Please note that py_node is the executable name.
 ```bash
 ros2 run my_py_pkg py_node 
 ```
