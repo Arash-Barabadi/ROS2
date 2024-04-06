@@ -53,7 +53,7 @@ setup(
 ### So if you take a look at this setup.py file, you have version,maintainer, description, license. And that is quite similar to what we had in the package.xml. So if you need to release the package, you have to change the info in both of these two files.
 
 ## B- to install the node you want to compile.
-### to install a node, we will add a new line here and we will need to specify a name for the executable.So what will ROS2 do when we install the file? It will copy the python file (for example my_first_node.py) then make some modification so it becomes an executable.And that exevutable, will be installed in the """" install folder """" of ROS2 workspace. 
+### to install a node, we will add a new line here and we will need to specify a name for the executable.So what will ROS2 do when we install the file? It will copy the python file (for example my_first_node.py) then make some modification so it becomes an executable.And that exevutable, will be installed in the "install folder" of ROS2 workspace. 
 ### So we need to specify a name for the executable. Again refering to python.py we have :....
 ```python
         'console_scripts': [
@@ -76,8 +76,8 @@ setup(
 ```
 ### in it works.
 # 3- the third and the best way. After installing the node, through the above steps, type in the terminal (No matter if it's in main directory or not:)
-´´´bash
+```bash
 ros2 run my_py_pkg py_node 
-´´´
+```
 
 
