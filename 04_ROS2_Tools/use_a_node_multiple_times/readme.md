@@ -3,3 +3,10 @@
 ```bash
 ros2 run "package_name" "node_name" --ros-args --remap __node:="new_node_name"
 ```
+## or
+```bash
+ros2 run "package_name" "node_name" --ros-args -r __node:="new_node_name"
+```
+### For instance;
+```bash
+ros2 run my_py_pkg robot_news_station --ros-args -r __node:=my_station
