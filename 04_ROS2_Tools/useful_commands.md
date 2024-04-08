@@ -14,6 +14,6 @@ ros2 node list
 ## Get information about running nodes
 ### please note that the node should be launched before. 
 ```bash
-ros2 node info <node_name>
+ros2 node info /<node_name>
 ```
 
