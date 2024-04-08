@@ -6,7 +6,7 @@ colcon build --packages-select <package_name>
 ```bash
 colcon build --packages-select <package_name> --symlink-install
 ```
-### Please not that the python file must be executable. to make it executable, do the following.
+### Please note that the python file must be executable. to make it executable, do the following.
 ```bash
 ~/ros2_ws/src/my_py_pkg/my_py_pkg$ chmod +x <python_file_name.py>
 ```
