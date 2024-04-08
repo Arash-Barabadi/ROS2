@@ -7,3 +7,12 @@ ros2 run demo_nodes_cpp talker
 ```bash
 ros2 run -h
 ```
+## Enquiring current running nodes
+```bash
+ros2 node list
+```
+## Get information about running nodes
+### please note that the node should be launched before. 
+```bash
+ros2 node info <node_name>
+```
