@@ -14,6 +14,9 @@ ros2 interface show example_interfaces/msg/String
 # If you want to embed it in another message, use the primitive data type instead.
 string data
 ```
+#### string  is a primitive data type for ROS2 messages.
+#### data  is a name of the field.
+
 # Message type
 ## When we want to use a message type that has been deployed in another package(e.g., we should mention that package in our python publisher as well as in our package.xml files. 
 ### in publisher we will type in:
@@ -26,8 +29,6 @@ from example_interfaces.msg import String
 ```xml
 <depend>example_interfaces</depend>
 ```
-#### string  is a primitive data type for ROS2 messages.
-#### data  is a name of the field. 
 ### It sounds the right choice, so we will take it.
 ```python
 self.publisher_ = self.create_publisher(String,"robot_news", 10)
