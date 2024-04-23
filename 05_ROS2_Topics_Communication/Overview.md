@@ -4,3 +4,10 @@
 ### 2. As mentioned above, a node (either publisher or subscriber) isn't aware of another node's existence. Therefore, publishers and subscribers are anonymous. A publisher only knows it is publishing to a topic, and a subscriber only knows it is subscribing to a topic.
 ### 3. A topic has a message type. All publishers and subscribers to a topic must use the same message type associated with that topic.
 ### 4. A node can have many publishers/subscribers for many different topics.
+# ___________________
+# Message type
+## When we want to use a message type that has been deployed in another package, we should import that package in our python publisher and in our package.xml files. 
+### in publisher we will type in:
+```python
+from example_interfaces.msg import String
+```
