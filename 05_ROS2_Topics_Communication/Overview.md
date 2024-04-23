@@ -6,12 +6,13 @@
 ### 4. A node can have many publishers/subscribers for many different topics.
 # ___________________
 # Message type
-## When we want to use a message type that has been deployed in another package, we should mention that package in our python publisher as well as in our package.xml files. 
+## When we want to use a message type that has been deployed in another package(e.g., we should mention that package in our python publisher as well as in our package.xml files. 
 ### in publisher we will type in:
-```py
+```python
 from example_interfaces.msg import String
 ```
-### and in package.xml we will type in:
+### and in package.xml we will type in the package name:
 ```xml
 <depend>example_interfaces</depend>
 ```
+#### every time your package depends on another package, write that like the above line. 
