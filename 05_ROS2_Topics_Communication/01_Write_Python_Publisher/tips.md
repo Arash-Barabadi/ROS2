@@ -1,4 +1,4 @@
-# Hints
+# Tips
 ## Publishing principals
 
 ## As we want to publish a "string" to a topic, the data type or message type should be of a "String" type.
