@@ -8,6 +8,7 @@
 # Message type
 ## When we want to use a message type that has been deployed in another package(e.g., we should mention that package in our python publisher as well as in our package.xml files. 
 ### in publisher we will type in:
+#### the term "String" is a desired message type.
 ```python
 from example_interfaces.msg import String
 ```
