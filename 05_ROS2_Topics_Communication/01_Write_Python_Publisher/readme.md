@@ -29,7 +29,7 @@ from example_interfaces.msg import String
 ```xml
 <depend>example_interfaces</depend>
 ```
-### It sounds the right choice, so we will take it.
+### as can be seen from below ...
 ```python
 self.publisher_ = self.create_publisher(String,"robot_news", 10)
 ```
