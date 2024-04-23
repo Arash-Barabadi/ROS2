@@ -12,7 +12,8 @@
 from example_interfaces.msg import String
 ```
 ### and in package.xml we will type in the package name:
+#### every time your package depends on another package, write that like the below line.  
 ```xml
 <depend>example_interfaces</depend>
 ```
-#### every time your package depends on another package, write that like the above line. 
+
