@@ -13,7 +13,8 @@ ros2 interface show example_interfaces/msg/String
 # If you want to embed it in another message, use the primitive data type instead.
 string data
 ```
-
-
+### It sounds the right choice, so we will take it.
 ```python
+self.publisher_ = self.create_publisher(String,"robot_news", 10)
+```
 
