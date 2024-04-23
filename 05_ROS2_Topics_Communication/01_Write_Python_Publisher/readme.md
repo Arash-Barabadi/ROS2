@@ -14,6 +14,18 @@ ros2 interface show example_interfaces/msg/String
 # If you want to embed it in another message, use the primitive data type instead.
 string data
 ```
+# Message type
+## When we want to use a message type that has been deployed in another package(e.g., we should mention that package in our python publisher as well as in our package.xml files. 
+### in publisher we will type in:
+#### the term "String" is a desired message type.
+```python
+from example_interfaces.msg import String
+```
+### and in package.xml we will type in the package name:
+#### every time your package depends on another package, write that like the below line.  
+```xml
+<depend>example_interfaces</depend>
+```
 #### string  is a primitive data type for ROS2 messages.
 #### data  is a name of the field. 
 ### It sounds the right choice, so we will take it.
