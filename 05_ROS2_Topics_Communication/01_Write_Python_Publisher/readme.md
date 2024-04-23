@@ -36,5 +36,5 @@ self.publisher_ = self.create_publisher(String,"robot_news", 10)
 #### we have created a publisher with ...
 ##### data type "String"
 ##### and a topic name of "robot_news"
-##### a queue size 10, disctiption: when you publish or when you subscribe, we need to give that argument. You will send some messages between nodes and sometimes it can happen if you publish very fast or if you publish a big messages like a complete image. It can happen that some messages are late to arrive and in that case the queue size will allow you to keep some messages before they are processed. 
+##### and a queue size 10, disctiption: when you publish or when you subscribe, we need to give that argument. You will send some messages between nodes and sometimes it can happen if you publish very fast or if you publish a big messages like a complete image. It can happen that some messages are late to arrive and in that case the queue size will allow you to keep some messages before they are processed. 
 
