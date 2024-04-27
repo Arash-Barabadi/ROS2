@@ -12,8 +12,10 @@ ros2 topic info /robot_news </Topic_Name>
 ```
 ## Then the messages like the below would come up on screen:
 ```bash
-arash@arash-HP-ZBook-15-G2:~$ ros2 topic info /robot_news 
 Type: example_interfaces/msg/String
 Publisher count: 1
 Subscription count: 0
 ```
+### On the above message;
+### line 1 shows the Message(Data) type
+### line 2 & 3 shows the Number of nodes which are Publishing or Subscribing to the topic.
