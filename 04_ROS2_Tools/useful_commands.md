@@ -16,4 +16,15 @@ ros2 node list
 ```bash
 ros2 node info /<node_name>
 ```
-
+## To get to know Data(Message) type there is a command:
+```bash
+ros2 interface show example_interfaces/msg/String
+```
+## the following message will appear on screen which gives us many infos about message type, esp. the last line "string data"
+```bash
+# This is an example message of using a primitive datatype, string.
+# If you want to test with this that's fine, but if you are deploying
+# it into a system you should create a semantically meaningful message type.
+# If you want to embed it in another message, use the primitive data type instead.
+string data
+```
