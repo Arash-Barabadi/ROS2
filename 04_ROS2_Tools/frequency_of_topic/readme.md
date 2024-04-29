@@ -20,3 +20,4 @@ Subscribed to [/robot_news]
 145 B/s from 2 messages
 	Message size mean: 56 B min: 56 B max: 56 B
 ```
+
