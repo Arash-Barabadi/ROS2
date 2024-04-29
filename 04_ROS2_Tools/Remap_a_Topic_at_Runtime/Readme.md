@@ -5,5 +5,11 @@
 ```bash
 ros2 run my_py_pkg robot_news_station --ros-args -r robot_news:=my_news
 ```
-## then the publisher is called, now I call the subscriber, but nothing appear on terminal. The reason is that as the image below.
+## then the publisher is called, now I call the subscriber, but nothing appear on terminal. As can bee seen from the below image, we have two topics, Publisher is publish to one of them and subscriber subscribe to another one. 
 ![Screenshot from 2024-04-29 21-15-53](https://github.com/Arash-Barabadi/ROS2/assets/54539090/355a30d2-71bb-4538-a2c6-063275b89fce)
+## To combine the the both above mentioned topics into one, we should write the following line:
+```bash
+ros2 run my_py_pkg smartphone --ros-args -r robot_news:=my_news
+```
+## Now the problem is solved as you can see in the following image. 
+![Screenshot from 2024-04-29 21-21-41](https://github.com/Arash-Barabadi/ROS2/assets/54539090/4644e95b-34ad-4466-a063-5579b3352dcf)
