@@ -10,11 +10,13 @@ average rate: 1.999
 	min: 0.500s max: 0.500s std dev: 0.00013s window: 3
 ```
 # Band width
-## 
+## You can see the Bandwidth used for the node. 
 ```bash
 ros2 topic bw /robot_news
 ```
-
+### and the following message sequentially appears on the console:
+```bash
 Subscribed to [/robot_news]
 145 B/s from 2 messages
 	Message size mean: 56 B min: 56 B max: 56 B
+```
