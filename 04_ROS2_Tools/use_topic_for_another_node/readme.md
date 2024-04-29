@@ -2,7 +2,7 @@
 ```bash
 ros2 run my_py_pkg <package_name> robot_news_station <executable_name>
 ```
-## Now if you enguire the topic list you can find the topic which relates to the above running node.
+## Now if you enquire the topic list you can find the topic which relates to the above running node.
 ```bash
 ros2 run <Package_name> <Node_name>
 ```
