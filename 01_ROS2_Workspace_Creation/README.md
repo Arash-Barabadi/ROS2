@@ -6,7 +6,7 @@
 sudo apt install python3-colcon-common-extensions
 ```
 ### The colcon is now installed and can be used. There is one more thing which needs to be set up with Colcon, that is the auto completion feature.
-### The auto completion feature is not enabled by deafualt, so we will active that as follows... 
+### The auto completion feature is not enabled by default, so we will active that as follows... 
 ### at first go to the following location
 ```bash
 cd /usr/share/colcon_argcomplete/hook/
