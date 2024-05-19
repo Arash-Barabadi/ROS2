@@ -30,7 +30,7 @@ cd ros2_ws
 mkdir src
 ```
 ### So now go to the ros2_ws folder directory, then by typing "colcon build", the actual workspace will be built.
-### **pay attention that we should be at the ros2_ws directory then type the following command.**
+### Pay attention that we should be at the ros2_ws directory then type the following command.
 ```bash
 colcon build
 ```
