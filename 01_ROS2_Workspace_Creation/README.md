@@ -20,7 +20,7 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ## Workspace
 ### The workspace will be the place where you write all your codes for a ROS2 application. And that's also where you will compile these codes.
 ### Workspace creation
-#### Let's first go to the home directory and create a folder named ros2_ws. The name of the folder is arbitrary. But this is the convention which can be seen in ros2 community, which is to name the workspace like : name.ws
+#### Let's first go to the home directory and create a folder named ros2_ws. The name of the folder is arbitrary. But this is the convention which can be seen in ros2 community, which is to name the workspace like : name_ws
 ```bash
 mkdir ros2_ws
 ```
