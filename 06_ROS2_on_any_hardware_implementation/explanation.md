@@ -5,5 +5,4 @@
 ## Something else to be aware of is still very much under active developement. So while the concept in this tutorial will probably stay the same for a while, some of the actual code and details might change in future. First of all let's recap what a hardware interface does. 
 
 # What does a Hardware interface do?
-## ros2_control gives us a system that abstracts controler design for hardware interactions. 
 ## A hardware interface or a hardware component is a plugin written in C++ for a specific model of hardware that exposes that hardware's functionality in a standard way. 
