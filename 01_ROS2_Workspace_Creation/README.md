@@ -48,6 +48,6 @@ colcon build
 source ~/ros2_ws/install/setup.bash
 ```
 
-##  what is the use of --symlink-install in ROS2 colcon build?
+##  what is the use of --symlink-install in ROS2 colcon build (colcon build --symlink-install)?
 ### with --symlink-install if we change code in our source code, it will take effect, we don't have to compile it again (only with python, not c++)
 
