@@ -34,6 +34,10 @@ mkdir src
 ```bash
 colcon build
 ```
+
+##  what is the use of --symlink-install in ROS2 colcon build (colcon build --symlink-install)?
+### with --symlink-install if we change code in our source code, it will take effect, we don't have to compile it again (only with python, not c++)
+## ___________________________________
 ### Now, if I check the contents, there are three folders next to the 'src' directory
 #### log : which contains log of the build process.
 #### build : 
@@ -48,6 +52,4 @@ colcon build
 source ~/ros2_ws/install/setup.bash
 ```
 
-##  what is the use of --symlink-install in ROS2 colcon build (colcon build --symlink-install)?
-### with --symlink-install if we change code in our source code, it will take effect, we don't have to compile it again (only with python, not c++)
 
