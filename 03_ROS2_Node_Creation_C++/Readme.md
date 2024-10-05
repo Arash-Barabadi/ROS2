@@ -5,4 +5,6 @@
   <depend>example_interfaces</depend>
 ```
 ### 2- CMakeLists.txt
-
+```txt
+find_package(example_interfaces REQUIRED)
+```
