@@ -8,3 +8,11 @@
 ```txt
 find_package(example_interfaces REQUIRED)
 ```
+
+# How to run the a %%%.cpp code?
+## to run a code, we first to need compile it. So
+### 1- first we need to build an executalbe as below:
+```txt
+add_executable(robot_news_station src/robot_news_station.cpp)
+ament_target_dependencies(robot_news_station rclcpp example_interfaces)
+```
