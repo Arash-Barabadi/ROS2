@@ -2,8 +2,7 @@
 
 ### 1- package.xml
 ´´´xml
-
-  <depend>example_interfaces</depend>
+<depend>example_interfaces</depend>
 
 
 ### 2- CMakeLists.txt
