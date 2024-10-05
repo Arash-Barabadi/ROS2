@@ -10,10 +10,17 @@ find_package(example_interfaces REQUIRED)
 ```
 
 # How to run the a %%%.cpp code?
-## to run a code, we first to need compile it. So
+## to run a code, we first to need compile it. So go to the CMakeLists.txt and do the following:
+
 ### 1- first we need to build an executalbe as below:
 ```txt
 add_executable(robot_news_station src/robot_news_station.cpp)
 ament_target_dependencies(robot_news_station rclcpp example_interfaces)
 ```
 #### on above we are saying that the robot_news_station executable needs both "rclcpp" and "example_interfaces" libraries(packages).
+
+### 2- install the executable in the same .txt file. 
+install(TARGETS
+  robot_news_station
+  DESTINATION lib/${PROJECT_NAME}
+)
