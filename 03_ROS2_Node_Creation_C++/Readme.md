@@ -20,7 +20,9 @@ ament_target_dependencies(robot_news_station rclcpp example_interfaces)
 #### on above we are saying that the robot_news_station executable needs both "rclcpp" and "example_interfaces" libraries(packages).
 
 ### 2- install the executable in the same .txt file. 
+```txt
 install(TARGETS
   robot_news_station
   DESTINATION lib/${PROJECT_NAME}
 )
+```
