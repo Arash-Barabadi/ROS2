@@ -16,4 +16,4 @@ find_package(example_interfaces REQUIRED)
 add_executable(robot_news_station src/robot_news_station.cpp)
 ament_target_dependencies(robot_news_station rclcpp example_interfaces)
 ```
-#### on above we are saying that the robot_news_station executable needs both "rclcpp" and "example_interfaces" libraries.
+#### on above we are saying that the robot_news_station executable needs both "rclcpp" and "example_interfaces" libraries(packages).
