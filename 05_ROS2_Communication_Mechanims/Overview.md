@@ -6,7 +6,7 @@
 ## A service in ROS 2 is a synchronous request-response communication model where one node acts as a client and another as a server. This model is suitable for command-based interactions, like asking a robot to move to a specific location.
 #    Actions: 
 ## Actions are designed for tasks that may take some time to complete and can benefit from periodic feedback or can be canceled if necessary. For example, moving a robot arm to a position would be a task that benefits from feedback and may need cancellation if conditions change.
-___________________________________________________________________________________
+# _____________________Break down_________________________
 # Topic
 ## A topic is a named bus over which nodes exchange messages.
 ### 1. Data stream is unidirectional. Some nodes can publish to a topic, and some nodes can subscribe to a topic. However, there is no response from a subscriber to a publisher. The data is only flowing in one direction.
