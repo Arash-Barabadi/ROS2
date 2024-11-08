@@ -13,7 +13,7 @@
 ### 2. It can be either synchronous or asynchronous. 
 ### 3. A Service is defined as a name and a pair of messages (One message type for Request, One message type for Response)
 ### 4. A Service server can only exist once, but can have many clients. 
-### 5. To conclude, you can see that services offer a nice complementarity with topics. Topics will be used for unidirectional data streams and services will be used for bidirectional and when you need a client server architecture. 
+### 5. You can see that services offer a nice complementarity with topics. Topics will be used for unidirectional data streams and services will be used for bidirectional and when you need a client server architecture. 
 
 #    Actions: 
 ## Actions are designed for tasks that may take some time to complete and can benefit from periodic feedback or can be canceled if necessary. For example, moving a robot arm to a position would be a task that benefits from feedback and may need cancellation if conditions change.
