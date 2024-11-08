@@ -4,3 +4,7 @@
 ```bash
 arash@arash-HP-ZBook-15-G2:~/ros2_ws/src/my_py_pkg/my_py_pkg$ touch add_two_ints_server.py
 ```
+## then we make it executable
+```bash
+arash@arash-HP-ZBook-15-G2:~/ros2_ws/src/my_py_pkg/my_py_pkg$ chmod +x add_two_ints_server.py 
+```
