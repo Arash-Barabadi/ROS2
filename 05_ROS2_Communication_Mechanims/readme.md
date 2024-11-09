@@ -9,11 +9,6 @@
 ### 4. A node can have many publishers/subscribers for many different topics.
 #    Services: 
 ## A service in ROS 2 is a synchronous request-response communication model where one node acts as a client and another as a server. This model is suitable for command-based interactions, like asking a robot to move to a specific location.
-### 1. A ROS2 Service is a client/server system.
-### 2. It can be either synchronous or asynchronous. 
-### 3. A Service is defined as a name and a pair of messages (One message type for Request, One message type for Response)
-### 4. A Service server can only exist once, but can have many clients. 
-### 5. You can see that services offer a nice complementarity with topics. Topics will be used for unidirectional data streams and services will be used for bidirectional and when you need a client server architecture. 
 
 #    Actions: 
 ## Actions are designed for tasks that may take some time to complete and can benefit from periodic feedback or can be canceled if necessary. For example, moving a robot arm to a position would be a task that benefits from feedback and may need cancellation if conditions change.
