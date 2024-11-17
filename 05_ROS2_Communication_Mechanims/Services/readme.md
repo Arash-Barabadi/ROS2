@@ -1,5 +1,5 @@
 #    Services: 
-## A service in ROS 2 is a synchronous request-response communication model where one node acts as a client and another as a server. This model is suitable for command-based interactions, like asking a robot to move to a specific location.
+## A service in ROS 2 is a request-response communication model where one node acts as a client and another as a server. This model is suitable for command-based interactions, like asking a robot to move to a specific location.
 ### 1. A ROS2 Service is a client/server system.
 ### 2. It can be either synchronous or asynchronous. 
 ### 3. A Service is defined as a name and a pair of messages (One message type for Request, One message type for Response)
