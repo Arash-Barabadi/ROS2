@@ -7,7 +7,7 @@ arash@arash-HP-ZBook-15-G2:~/ros2_ws/src/my_py_pkg/my_py_pkg$ touch add_two_ints
 arash@arash-HP-ZBook-15-G2:~/ros2_ws/src/my_py_pkg/my_py_pkg$ chmod +x add_two_ints_client_no_oop.py 
 arash@arash-HP-ZBook-15-G2:~/ros2_ws/src/my_py_pkg/my_py_pkg$ chmod +x add_two_ints_client.py
 ```
-# Without OOP
+# Without OOP \/ - \/ - \/
 
 #### --------------------------------------------------------------------------------------------------------------
 
