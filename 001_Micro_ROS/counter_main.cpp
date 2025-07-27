@@ -66,7 +66,7 @@ void setup() {
   set_microros_serial_transports(Serial);
   delay(2000);
 
-  
+
 // Fetches the default memory allocator used by the ROS 2 client libraries.
   allocator = rcl_get_default_allocator();
 
@@ -98,7 +98,14 @@ void setup() {
   msg.data = 0;
 }
 
+// ==================================== Loop Function ===========================================
 void loop() {
+  // Arduino main loop.
+  // Every 100ms:
+  // Runs the executor for up to 100 ms.
+  // If the timer has elapsed, timer_callback() is called.
+  // msg.data is published and incremented.
+
   delay(100);
   RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
 }
