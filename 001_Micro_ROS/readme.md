@@ -1,3 +1,3 @@
 ## ESP32S_WROOM-32
 
-![Uploading image.png…]()
+https://pinoutdiagrams.com/wp-content/images/wqjg_Esp32S-V1.1-Pinout.jpg
